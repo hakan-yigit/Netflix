@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <ul class="left-side">
+          <li>
+            <img src="https://i.hizliresim.com/22tkzgu.png" alt="netflix-icon" id="netflix-icon">
+          </li>
+        </ul>
+        <ul class="right-side">
+          <li class="drop-container">
+            <label for="drop-button" id="drop-button">
+            <img src="https://i.hizliresim.com/n859lxu.png" alt="" id="language-icon">
+            </label>
+                <select name="content" id="drop-button1">
+                    <option value="Turkish">Turkish</option>
+                    <option value="English">English</option>
+                </select>
+          </li>
+          <li>
+            <button class="first-button">Sign In</button>
+          </li>
+        </ul>
+      </header>
+
+      <div class="container">
+    
+        <section class="head">
+            <img src="https://i.hizliresim.com/55w2qgh.png" alt="" id="netflix-icon2">
+        </section>
+            <p id="first-text">Thank you for signing up at Netflix. Tell us more about yourself.</p>
+        
+        
+        
+        <section class="form-container2">
+            <form action="q" id="form" name="form">
+                <div class="box">
+                    <label for="username">Name</label>
+                    <br>
+                    <input type="text" placeholder="Enter your Name" id="username">
+                </div>
+                <div class="box">
+                    <label for="Age">Age</label>
+                    <br>
+                    <input type="number" id="number">
+                </div>
+                <div class="box">
+                    <label for="email" id="email">E-mail</label>
+                    <br>
+                    <input type="text" id="email" placeholder="example@netflix.com">
+                </div>
+            <div class="box">
+                <label for="drop-button" id="drop-button">Content Type</label>
+                <br>
+                <select name="content" id="drop-button2">
+                    <option value="Movie">Movie</option>
+                    <option value="Series">Series</option>
+                </select>
+            </div>
+            <div class="box box1">
+                <label id="checkbox">Movie Type</label>
+                <br>
+                <label for="firstcheck">
+                    <input type="checkbox" id="firstcheck" name="movie1" value="Comedy">
+                    Comedy
+                </label>
+                <br>
+                <label for="secondcheck">
+                    <input type="checkbox" id="secondcheck" name="movie2" value="Action">
+                    Action
+                </label>
+                <br>
+                <label for="thirdcheck">
+                    <input type="checkbox" id="thirdcheck" name="movie3" value="Romance">
+                    Romance
+                </label>
+                <br>
+            </div>
+            <div class="box box2">
+                <label id="radiobutton">Gender</label>
+                <br>
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </label>
+                <br>
+            </div>
+            <div class="Box-textarea">
+                <label for="feedback" id="feed-label">FeedBack</label>
+                <br>
+                <textarea name="feedback" id="feedback" cols="57" rows="7" placeholder="Enter Your Comment" style="resize: none;">
+                </textarea>
+            </div>
+              <div id="send-button">
+            <input type="submit" name="send" id="submit">
+              </div>
+        </form>
+        </section>
+        </div>
+    
+</body>
+</html>
